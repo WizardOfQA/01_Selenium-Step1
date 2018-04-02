@@ -1,0 +1,14 @@
+C:\Users\wizar\source\repos\Demo_TestFrameWork\Demo_TestFrameWork\bin\Debug\Demo_TestFrameWork.dll
+C:\Users\wizar\source\repos\Demo_TestFrameWork\Demo_TestFrameWork\bin\Debug\Demo_TestFrameWork.pdb
+C:\Users\wizar\source\repos\Demo_TestFrameWork\Demo_TestFrameWork\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\wizar\source\repos\Demo_TestFrameWork\Demo_TestFrameWork\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\wizar\source\repos\Demo_TestFrameWork\Demo_TestFrameWork\bin\Debug\WebDriver.dll
+C:\Users\wizar\source\repos\Demo_TestFrameWork\Demo_TestFrameWork\bin\Debug\WebDriver.Support.dll
+C:\Users\wizar\source\repos\Demo_TestFrameWork\Demo_TestFrameWork\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\wizar\source\repos\Demo_TestFrameWork\Demo_TestFrameWork\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\wizar\source\repos\Demo_TestFrameWork\Demo_TestFrameWork\bin\Debug\WebDriver.xml
+C:\Users\wizar\source\repos\Demo_TestFrameWork\Demo_TestFrameWork\bin\Debug\WebDriver.Support.xml
+C:\Users\wizar\source\repos\Demo_TestFrameWork\Demo_TestFrameWork\obj\Debug\Demo_TestFrameWork.csproj.CoreCompileInputs.cache
+C:\Users\wizar\source\repos\Demo_TestFrameWork\Demo_TestFrameWork\obj\Debug\Demo_TestFrameWork.csproj.CopyComplete
+C:\Users\wizar\source\repos\Demo_TestFrameWork\Demo_TestFrameWork\obj\Debug\Demo_TestFrameWork.dll
+C:\Users\wizar\source\repos\Demo_TestFrameWork\Demo_TestFrameWork\obj\Debug\Demo_TestFrameWork.pdb
