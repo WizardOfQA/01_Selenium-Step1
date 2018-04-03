@@ -12,3 +12,5 @@ C:\Users\wizar\source\repos\Demo_TestFrameWork\Demo_TestFrameWork\obj\Debug\Demo
 C:\Users\wizar\source\repos\Demo_TestFrameWork\Demo_TestFrameWork\obj\Debug\Demo_TestFrameWork.csproj.CopyComplete
 C:\Users\wizar\source\repos\Demo_TestFrameWork\Demo_TestFrameWork\obj\Debug\Demo_TestFrameWork.dll
 C:\Users\wizar\source\repos\Demo_TestFrameWork\Demo_TestFrameWork\obj\Debug\Demo_TestFrameWork.pdb
+C:\Users\wizar\source\repos\Demo_TestFrameWork\Demo_TestFrameWork\obj\Debug\Demo_TestFrameWork.csprojResolveAssemblyReference.cache
+C:\Users\wizar\source\repos\Demo_TestFrameWork\Demo_TestFrameWork\bin\Debug\SeleniumExtras.WaitHelpers.dll

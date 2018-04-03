@@ -20,3 +20,4 @@ C:\Users\wizar\source\repos\Demo_TestFrameWork\Stackoverflow_UI_Test\obj\Debug\S
 C:\Users\wizar\source\repos\Demo_TestFrameWork\Stackoverflow_UI_Test\obj\Debug\Stackoverflow_UI_Test.csproj.CopyComplete
 C:\Users\wizar\source\repos\Demo_TestFrameWork\Stackoverflow_UI_Test\obj\Debug\Stackoverflow_UI_Test.dll
 C:\Users\wizar\source\repos\Demo_TestFrameWork\Stackoverflow_UI_Test\obj\Debug\Stackoverflow_UI_Test.pdb
+C:\Users\wizar\source\repos\Demo_TestFrameWork\Stackoverflow_UI_Test\bin\Debug\SeleniumExtras.WaitHelpers.dll

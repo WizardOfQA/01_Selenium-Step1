@@ -7,6 +7,7 @@ using Demo_TestFrameWork.Repository;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Support.UI;
 
 namespace Stackoverflow_UI_Test
 {
@@ -30,7 +31,7 @@ namespace Stackoverflow_UI_Test
             TextBoxHelper.TypeInTextBox(By.Id("email"), ObjectRepository.Config.GetUserName());
             TextBoxHelper.TypeInTextBox(By.Id("password"), ObjectRepository.Config.GetPassword());
             ButtonHelper.ClickButton(By.Id("submit-button"));
-            Thread.Sleep(5000);
+            ObjectRepository.Driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
             ButtonHelper.ClickButton(By.XPath("//img[@src='https://www.gravatar.com/avatar/39f5b43a2d091b4e142c232528fcddcb?s=48&d=identicon&r=PG&f=1']"));
             Assert.AreEqual("Toby", GenericHelper.GetElement(By.XPath("//div[@class='name']")).Text);
         }
@@ -49,10 +50,11 @@ namespace Stackoverflow_UI_Test
             CheckBoxHelper.CheckOnCheckBox(By.Id("r"));
             ButtonHelper.ClickButton(By.XPath("//div/button[. = 'Search']"));
 
-            Thread.Sleep(3000);
+            ObjectRepository.Driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
             string actual = GenericHelper.GetElement(By.XPath("//span[@data-key='r']")).Text;
             Console.WriteLine(actual);
             Assert.AreEqual("offers remote", actual);
         }
+       
     }
 }

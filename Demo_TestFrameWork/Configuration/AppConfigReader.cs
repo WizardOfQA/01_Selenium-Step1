@@ -34,5 +34,21 @@ namespace Demo_TestFrameWork.Configuration
         {
             return ConfigurationManager.AppSettings.Get("ScreenshotStorage");
         }
+
+        public int GetPageLoadTimeout()
+        {
+            string timeout = ConfigurationManager.AppSettings.Get("PageLoadTimeout");
+            if (timeout == null)
+                return 30;
+            return Convert.ToInt32(timeout);
+        }
+
+        public int GetElementTimeout()
+        {
+            string timeout = ConfigurationManager.AppSettings.Get("ElementLoadTimeout");
+            if (timeout == null)
+                return 30;
+            return Convert.ToInt32(timeout);
+        }
     }
 }

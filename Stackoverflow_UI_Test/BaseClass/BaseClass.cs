@@ -55,15 +55,18 @@ namespace Stackoverflow_UI_Test.BaseClass
                     throw new NoSuitableDriverFound("Driver Not Found: {0}" +
                         ObjectRepository.Config.GetBrowser().ToString());
             }
+            ObjectRepository.Driver.Manage().Timeouts().PageLoad = TimeSpan.FromSeconds(ObjectRepository.Config.GetPageLoadTimeout());
+            ObjectRepository.Driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(ObjectRepository.Config.GetElementTimeout());
             BrowserHelper.MaxBrowser();
+
         }
         [AssemblyCleanup]
         public static void TearDown()
         {
             if (ObjectRepository.Driver != null)
             {
-                //ObjectRepository.Driver.Close();
-                //ObjectRepository.Driver.Quit();
+                ObjectRepository.Driver.Close();
+                ObjectRepository.Driver.Quit();
             }
         }
     }

@@ -13,5 +13,7 @@ namespace Demo_TestFrameWork.Configuration
         string GetPassword();
         string GetWebSite();
         string GetScreenshotStorage();
+        int GetPageLoadTimeout();
+        int GetElementTimeout();
     }
 }
