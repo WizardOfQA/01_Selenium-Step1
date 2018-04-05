@@ -12,6 +12,15 @@ namespace Demo_TestFrameWork.ComponentHelper
     {
         private static IWebElement element;
 
+        public static void WaitForTitle(string title, int totalSeconds, int checkInterval)
+        {
+            ObjectRepository.Driver.Manage().Timeouts().ImplicitWait = (TimeSpan.FromSeconds(1));
+            WebDriverWait wait = new WebDriverWait(ObjectRepository.Driver, TimeSpan.FromSeconds(totalSeconds));
+            wait.PollingInterval = TimeSpan.FromMilliseconds(checkInterval);
+            wait.IgnoreExceptionTypes(typeof(NoSuchElementException), typeof(ElementNotVisibleException));
+            wait.Until(ExpectedConditions.TitleContains(title));
+        }
+
         // Once the element is visible, return that element
         public static IWebElement WaitForElement(By locator, int totalSeconds, int checkInterval)
         {
