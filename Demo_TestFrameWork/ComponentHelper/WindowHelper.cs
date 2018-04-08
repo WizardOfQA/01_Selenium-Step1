@@ -41,5 +41,16 @@ namespace Demo_TestFrameWork.ComponentHelper
             }
             ObjectRepository.Driver.SwitchTo().Window(windowsids[0]);
         }
+
+        // input: iframe id
+        public static void SwitchToiFrame(By locator)
+        {
+            ObjectRepository.Driver.SwitchTo().Frame(GenericHelper.GetElement(locator));
+        }
+
+        public static void SwitchToMainFrame()
+        {
+            ObjectRepository.Driver.SwitchTo().DefaultContent();
+        }
     }
 }

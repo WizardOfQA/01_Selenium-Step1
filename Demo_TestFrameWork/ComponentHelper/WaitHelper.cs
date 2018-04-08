@@ -20,6 +20,7 @@ namespace Demo_TestFrameWork.ComponentHelper
             wait.IgnoreExceptionTypes(typeof(NoSuchElementException), typeof(ElementNotVisibleException));
             wait.Until(ExpectedConditions.TitleContains(title));
         }
+        
 
         // Once the element is visible, return that element
         public static IWebElement WaitForElement(By locator, int totalSeconds, int checkInterval)

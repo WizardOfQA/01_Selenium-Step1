@@ -1,4 +1,5 @@
 ﻿using Demo_TestFrameWork.Repository;
+using OpenQA.Selenium;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,6 +28,11 @@ namespace Demo_TestFrameWork.ComponentHelper
         public static void RefreshPage()
         {
             ObjectRepository.Driver.Navigate().Refresh();
+        }
+
+        public static void SwitchToFrame(By locator)
+        {
+            ObjectRepository.Driver.SwitchTo().Frame(GenericHelper.GetElement(locator));
         }
     }
 }

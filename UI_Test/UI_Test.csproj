@@ -61,6 +61,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestScript\Microsoft_TestScript.cs" />
     <Compile Include="TestScript\Expedia_TestScript.cs" />
+    <Compile Include="TestScript\JqueryUI_TestScript.cs" />
+    <Compile Include="TestScript\W3schools_TestScripts.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="..\packages\WebDriver.ChromeDriver.win32.2.37.0\content\chromedriver.exe">
