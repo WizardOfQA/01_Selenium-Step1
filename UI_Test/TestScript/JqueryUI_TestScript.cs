@@ -6,7 +6,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Interactions;
 
-namespace Stackoverflow_UI_Test.TestScript
+namespace UI_TestScript
 {
     [TestClass]
     public class JqueryUI_TestScript
@@ -32,7 +32,7 @@ namespace Stackoverflow_UI_Test.TestScript
 
         [TestCategory("JqueryUI.com")]
         [TestMethod]
-        public void User_Can_Sort_Using_Click_And_Hold()
+        public void User_Can_Sort_Using_Drag()
         {
             NavigationHelper.NavigateToUrl("https://jqueryui.com/sortable/");
 

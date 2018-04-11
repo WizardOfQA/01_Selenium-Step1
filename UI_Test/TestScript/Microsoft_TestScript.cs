@@ -6,7 +6,7 @@ using Demo_TestFrameWork.Repository;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
 
-namespace Stackoverflow_UI_Test.TestScript
+namespace UI_TestScript
 {
     [TestClass]
     public class Microsoft_TestScript

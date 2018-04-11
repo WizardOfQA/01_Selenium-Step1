@@ -6,7 +6,7 @@ using Demo_TestFrameWork.Repository;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
 
-namespace Stackoverflow_UI_Test.TestScript
+namespace UI_TestScript
 {
     [TestClass]
     public class Expedia_TestScript
@@ -22,7 +22,7 @@ namespace Stackoverflow_UI_Test.TestScript
             TextBoxHelper.TypeInTextBox(By.Id("package-origin-hp-package"), "Seattle, WA (SEA-Seattle - Tacoma Intl.)");
 
             // Destination
-            TextBoxHelper.TypeInTextBox(By.Id("package-destination-hp-package"), "Garachico, Spain");
+            TextBoxHelper.TypeInTextBox(By.Id("package-destination-hp-package"), "Barcelona El Prat Airport (BCN), Spain");
             
             // Calrendar for Departing
             GenericHelper.GetElement(By.Id("package-departing-hp-package")).Click();
@@ -39,10 +39,10 @@ namespace Stackoverflow_UI_Test.TestScript
             ButtonHelper.ClickButton(By.Id("search-button-hp-package"));
 
             // Wait for the Title in the result page
-            WaitHelper.WaitForTitle("Garachico Hotel Search Results | Expedia", 20, 500);
+            WaitHelper.WaitForTitle("Barcelona Intl. (BCN) Hotel Search Results | Expedia", 20, 500);
 
             // Assertion
-            Assert.AreEqual("Garachico Hotel Search Results | Expedia", ObjectRepository.Driver.Title);
+            Assert.AreEqual("Barcelona Intl. (BCN) Hotel Search Results | Expedia", ObjectRepository.Driver.Title);
         }
     }
 }

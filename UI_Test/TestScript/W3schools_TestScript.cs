@@ -6,10 +6,10 @@ using Demo_TestFrameWork.Repository;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
 
-namespace Stackoverflow_UI_Test.TestScript
+namespace UI_TestScript
 {
     [TestClass]
-    public class W3schools_TestScripts
+    public class W3schools_TestScript
     {      
         [TestCategory("W3schoos.com")]
         [TestMethod]

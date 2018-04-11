@@ -9,10 +9,10 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
 
-namespace UI_Test
+namespace UI_TestScript
 {
     [TestClass]
-    public class UI_TestScript
+    public class StackOverFlow_TestScript
     {
         [TestCategory("Stackoverflow.com")]
         [TestMethod]
