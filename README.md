@@ -4,9 +4,9 @@ This Selenium UI Automatin Framework tests many different functionalities for va
 This is the first part of the entire series of Selenium_UI_Automation.  
 
 ### Roadmap for Selenium UI Test Automation Series:
-**1. Selenium_UI_Automation Without POM**  
-2. Selenium_UI_Automation With POM  
-3. Selenium_UI_Automation With Logging and Reporting Functionalities.(Extent Report)    
+**1. Selenium_UI_Automation Without POM - Mainly Focus on Selenium API functionalities**  
+2. Selenium_UI_Automation With POM - How to structure and creating POM  
+3. Selenium_UI_Automation With Logging and Reporting Functionalities.(Extent Report) - How to Logging and Reporting using Extent Reports in a Selenium framework.      
 I might add more series as needed to showcase UI Automation with Selenium.
 
 ## Sameple Test Cases Covered:
