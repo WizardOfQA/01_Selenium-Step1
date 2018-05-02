@@ -6,6 +6,7 @@ This Selenium UI Automatin Framework tests many different functionalities for va
 **1> Selenium_UI_Automation Without POM - Manily Focus on Selenium API Functionalities**    
 2> Selenium_UI_Automation With POM - The Structure and Creating of POM    
 3> Selenium_UI_Automation With Logging and Reporting Functionalities.(Extent Report) - How to Logging and Reporting using Extent Reports in a Selenium framework.          
+4> Selenium_UI_Automation With Behavior Driven Development(BDD) Using Specflow - How to implment BDD to the framework using Specflow.
 
 I might add more series as needed to showcase UI Automation with Selenium.        
 
